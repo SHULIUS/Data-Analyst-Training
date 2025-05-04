@@ -32,3 +32,12 @@ data = {
         {"categoria_id": 5, "nombre": "Libros"}
     ]
 }
+
+
+
+for i in data["personas"]:
+    print(i["nombre"])
+print("_______________________")    
+for i in data["productos"]:
+    print(i["nombre"])      
+
